@@ -1,5 +1,9 @@
 # AYNI — frontend + backend integrado (sin Docker)
 
+> **Demo en línea:** https://frontend-production-f6b0.up.railway.app
+> **API:** https://backend-production-1033.up.railway.app/api/v1
+> Instrucciones de despliegue: [DEPLOY.md](DEPLOY.md)
+
 Esta versión conecta el frontend React de AYNI con una API REST en Spring Boot y una base de datos MySQL local. No usa Docker, XAMPP ni MariaDB. Puedes administrar la base con MySQL Workbench.
 
 ## Importante: Workbench y MySQL Server son distintos
