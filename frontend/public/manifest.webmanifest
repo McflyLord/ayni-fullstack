@@ -1,0 +1,19 @@
+{
+  "name": "AYNI · Hoy por ti, mañana por mí",
+  "short_name": "AYNI",
+  "description": "Comunidad y coordinación de ayuda vecinal.",
+  "lang": "es-PE",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8f5ef",
+  "theme_color": "#3B1F4A",
+  "icons": [
+    {
+      "src": "/ayni-logo-v2.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

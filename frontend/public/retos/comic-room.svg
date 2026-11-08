@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-label="Dos vecinos conversando en la sala comunitaria de AYNI">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#50325b"/>
+      <stop offset="0.7" stop-color="#41254b"/>
+      <stop offset="1" stop-color="#38203f"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#311838"/>
+      <stop offset="1" stop-color="#24102b"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc9d2"/>
+      <stop offset="0.65" stop-color="#c6e4e2"/>
+      <stop offset="1" stop-color="#e9f2e9"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a2c25"/>
+      <stop offset="1" stop-color="#2f1a16"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b90b4"/>
+      <stop offset="1" stop-color="#53789c"/>
+    </linearGradient>
+    <linearGradient id="curtain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c96a55"/>
+      <stop offset="1" stop-color="#e08a6f"/>
+    </linearGradient>
+    <pattern id="dots" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.6" fill="#ffffff" opacity="0.055"/>
+    </pattern>
+    <clipPath id="woman-body-clip">
+      <path d="M206 444 Q280 402 354 444 L376 620 L184 620 Z"/>
+    </clipPath>
+    <clipPath id="man-body-clip">
+      <path d="M774 460 Q850 424 926 460 L946 620 L754 620 Z"/>
+    </clipPath>
+    <filter id="blur10" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <!-- Habitación -->
+  <rect width="1200" height="620" fill="url(#wall)"/>
+  <rect width="1200" height="620" fill="url(#dots)"/>
+  <rect x="0" y="470" width="1200" height="150" fill="url(#floor)"/>
+  <rect x="0" y="460" width="1200" height="14" fill="#6b4776"/>
+  <rect x="0" y="474" width="1200" height="6" fill="#201027" opacity="0.6"/>
+  <ellipse cx="590" cy="590" rx="430" ry="38" fill="#4a2a55" opacity="0.55"/>
+  <ellipse cx="590" cy="590" rx="300" ry="24" fill="#5b3767" opacity="0.5"/>
+
+  <!-- Estantería izquierda -->
+  <g>
+    <rect x="36" y="86" width="238" height="13" rx="5" fill="#94689c"/>
+    <rect x="36" y="99" width="238" height="9" fill="#5c3967"/>
+    <rect x="46" y="36" width="17" height="50" rx="3" fill="#d97a5e"/>
+    <rect x="67" y="48" width="14" height="38" rx="3" fill="#f2cf7e"/>
+    <rect x="85" y="30" width="20" height="56" rx="3" fill="#7fb8ae"/>
+    <rect x="109" y="44" width="13" height="42" rx="3" fill="#b79cc9"/>
+    <rect x="126" y="24" width="18" height="62" rx="3" fill="#e8b98f"/>
+    <rect x="148" y="52" width="15" height="34" rx="3" fill="#f7f1e6"/>
+    <rect x="168" y="38" width="19" height="48" rx="3" fill="#c96a55"/>
+    <!-- planta de estante -->
+    <path d="M214 88 h30 l-5 26 h-20 Z" fill="#c96a55"/>
+    <path d="M229 86 C216 64 218 52 230 46 C238 58 238 72 232 86 Z" fill="#6f9c74"/>
+    <path d="M232 86 C246 62 258 60 264 66 C258 80 246 88 234 90 Z" fill="#84b08a"/>
+    <path d="M226 86 C214 74 204 74 198 80 C206 90 216 92 226 90 Z" fill="#5d8a63"/>
+    <rect x="36" y="216" width="238" height="13" rx="5" fill="#94689c"/>
+    <rect x="36" y="229" width="238" height="9" fill="#5c3967"/>
+    <rect x="52" y="176" width="16" height="40" rx="3" fill="#f2cf7e"/>
+    <rect x="72" y="166" width="14" height="50" rx="3" fill="#7fb8ae"/>
+    <rect x="90" y="184" width="20" height="32" rx="3" fill="#d97a5e"/>
+    <rect x="114" y="158" width="15" height="58" rx="3" fill="#b79cc9"/>
+    <rect x="133" y="172" width="18" height="44" rx="3" fill="#f7f1e6"/>
+    <!-- caja y marco -->
+    <rect x="176" y="180" width="62" height="36" rx="5" fill="#8a5f92"/>
+    <rect x="184" y="188" width="46" height="6" rx="3" fill="#c9a7d0" opacity="0.65"/>
+    <rect x="184" y="200" width="30" height="5" rx="2.5" fill="#c9a7d0" opacity="0.5"/>
+  </g>
+
+  <!-- Ventana derecha -->
+  <g>
+    <rect x="922" y="96" width="236" height="238" rx="14" fill="#d9c2a7"/>
+    <rect x="938" y="112" width="204" height="206" rx="8" fill="url(#sky)"/>
+    <circle cx="1086" cy="158" r="24" fill="#f6d488"/>
+    <path d="M938 274 C976 230 1012 246 1038 274 Z" fill="#7fb8ae"/>
+    <path d="M1024 274 C1060 218 1110 232 1142 274 Z" fill="#6aa39a"/>
+    <path d="M986 170 q14 -16 30 0 q16 -12 28 4" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <rect x="1036" y="112" width="8" height="206" fill="#f7f1e6"/>
+    <rect x="938" y="212" width="204" height="8" fill="#f7f1e6"/>
+    <rect x="918" y="330" width="244" height="14" rx="6" fill="#c9b096"/>
+    <path d="M918 102 C944 118 940 160 922 188 L922 100 Z" fill="url(#curtain)"/>
+    <path d="M1164 102 C1138 118 1142 160 1160 188 L1160 100 Z" fill="url(#curtain)"/>
+  </g>
+
+  <!-- Guirnalda -->
+  <path d="M922 56 C990 84 1080 84 1158 50" fill="none" stroke="#c9a7d0" stroke-width="3" opacity="0.7"/>
+  <path d="M954 67 l10 22 l13 -25 Z" fill="#f2cf7e"/>
+  <path d="M1004 76 l10 22 l13 -25 Z" fill="#d97a5e"/>
+  <path d="M1056 78 l10 22 l13 -25 Z" fill="#7fb8ae"/>
+  <path d="M1106 70 l10 22 l13 -25 Z" fill="#b79cc9"/>
+
+  <!-- Pizarra central -->
+  <g>
+    <rect x="412" y="146" width="386" height="252" rx="18" fill="#1f1026" opacity="0.35" filter="url(#blur10)"/>
+    <rect x="414" y="132" width="382" height="252" rx="16" fill="#f8f4ea" stroke="#d9c2a7" stroke-width="7"/>
+    <rect x="414" y="132" width="382" height="252" rx="16" fill="none" stroke="#b99a7a" stroke-width="2" opacity="0.45"/>
+    <circle cx="470" cy="130" r="8" fill="#8a5f92"/>
+    <circle cx="740" cy="130" r="8" fill="#8a5f92"/>
+    <text x="440" y="178" font-family="Trebuchet MS, Verdana, sans-serif" font-size="20" font-weight="700" fill="#3b1f4a">PROYECTO AYNI</text>
+    <line x1="440" y1="190" x2="770" y2="190" stroke="#e3d7c7" stroke-width="3"/>
+    <!-- notas -->
+    <g transform="rotate(-2 508 236)">
+      <rect x="442" y="204" width="128" height="72" rx="7" fill="#f2cf7e"/>
+      <rect x="456" y="220" width="74" height="7" rx="3.5" fill="#b58c3e"/>
+      <rect x="456" y="236" width="96" height="6" rx="3" fill="#c7a35a"/>
+      <rect x="456" y="250" width="62" height="6" rx="3" fill="#c7a35a"/>
+    </g>
+    <g transform="rotate(2 622 236)">
+      <rect x="586" y="204" width="112" height="72" rx="7" fill="#efb6bd"/>
+      <rect x="600" y="220" width="60" height="7" rx="3.5" fill="#b46370"/>
+      <rect x="600" y="236" width="80" height="6" rx="3" fill="#c77e88"/>
+      <rect x="600" y="250" width="44" height="6" rx="3" fill="#c77e88"/>
+    </g>
+    <g transform="rotate(-1 748 236)">
+      <rect x="714" y="204" width="64" height="72" rx="7" fill="#9fd3c7"/>
+      <text x="726" y="236" font-family="Trebuchet MS, Verdana, sans-serif" font-size="15" font-weight="700" fill="#356b62">S/ 300</text>
+      <rect x="726" y="248" width="38" height="5" rx="2.5" fill="#5b948a"/>
+      <rect x="726" y="258" width="28" height="5" rx="2.5" fill="#5b948a"/>
+    </g>
+    <g transform="rotate(1 524 340)">
+      <rect x="442" y="292" width="172" height="76" rx="7" fill="#fffdf8" stroke="#e6dccd" stroke-width="2"/>
+      <rect x="456" y="306" width="86" height="7" rx="3.5" fill="#8a5f92"/>
+      <rect x="456" y="322" width="120" height="5" rx="2.5" fill="#c9b9c9"/>
+      <rect x="456" y="334" width="104" height="5" rx="2.5" fill="#c9b9c9"/>
+      <rect x="456" y="346" width="70" height="5" rx="2.5" fill="#c9b9c9"/>
+    </g>
+    <g transform="rotate(-2 694 344)">
+      <rect x="628" y="292" width="150" height="76" rx="7" fill="#cfe0c2"/>
+      <rect x="642" y="306" width="66" height="7" rx="3.5" fill="#5d7c4f"/>
+      <circle cx="650" cy="328" r="5" fill="#5d7c4f"/>
+      <rect x="662" y="324" width="84" height="6" rx="3" fill="#7c9a6d"/>
+      <circle cx="650" cy="346" r="5" fill="#5d7c4f"/>
+      <rect x="662" y="342" width="66" height="6" rx="3" fill="#7c9a6d"/>
+    </g>
+    <circle cx="446" cy="208" r="4" fill="#c96a55"/>
+    <circle cx="590" cy="208" r="4" fill="#c96a55"/>
+    <circle cx="718" cy="208" r="4" fill="#c96a55"/>
+    <!-- bandeja y plumones -->
+    <rect x="500" y="388" width="210" height="12" rx="6" fill="#c9b096"/>
+    <rect x="532" y="380" width="54" height="10" rx="5" fill="#3b1f4a"/>
+    <rect x="596" y="380" width="42" height="10" rx="5" fill="#d97a5e"/>
+  </g>
+
+  <!-- Mujer -->
+  <g>
+    <ellipse cx="282" cy="592" rx="112" ry="20" fill="#1f1026" opacity="0.45"/>
+    <!-- cabello trasero -->
+    <circle cx="280" cy="376" r="74" fill="url(#hair)"/>
+    <circle cx="226" cy="418" r="42" fill="url(#hair)"/>
+    <circle cx="334" cy="418" r="42" fill="url(#hair)"/>
+    <!-- cuerpo con franjas -->
+    <path d="M206 444 Q280 402 354 444 L376 620 L184 620 Z" fill="#f7f1e6"/>
+    <g clip-path="url(#woman-body-clip)">
+      <rect x="180" y="432" width="200" height="30" fill="#e6bd63"/>
+      <rect x="180" y="462" width="200" height="30" fill="#d97a5e"/>
+      <rect x="180" y="492" width="200" height="30" fill="#b79cc9"/>
+      <rect x="180" y="522" width="200" height="30" fill="#7fb8ae"/>
+      <rect x="180" y="552" width="200" height="34" fill="#6f9c74"/>
+      <rect x="180" y="586" width="200" height="40" fill="#8a5f92"/>
+    </g>
+    <path d="M262 428 h36 v32 h-36 Z" fill="#e6b58e"/>
+    <path d="M268 438 q12 10 24 0" fill="none" stroke="#d39c76" stroke-width="3" stroke-linecap="round"/>
+    <!-- brazo izquierdo -->
+    <path d="M216 462 C196 500 190 532 192 566" fill="none" stroke="#f3c9a5" stroke-width="25" stroke-linecap="round"/>
+    <path d="M208 452 C190 486 186 504 188 522" fill="none" stroke="#e6bd63" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="192" cy="572" r="15" fill="#f3c9a5"/>
+    <!-- brazo derecho señalando -->
+    <path d="M342 456 C370 440 390 428 412 416" fill="none" stroke="#f3c9a5" stroke-width="24" stroke-linecap="round"/>
+    <path d="M346 452 C368 440 380 434 392 428" fill="none" stroke="#d97a5e" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="420" cy="412" r="15" fill="#f3c9a5"/>
+    <path d="M420 404 l18 -6" stroke="#f3c9a5" stroke-width="10" stroke-linecap="round"/>
+    <!-- cabeza -->
+    <circle cx="280" cy="376" r="54" fill="#f3c9a5"/>
+    <circle cx="226" cy="380" r="11" fill="#f3c9a5"/>
+    <circle cx="334" cy="380" r="11" fill="#f3c9a5"/>
+    <path d="M226 372 C224 308 336 308 334 372 C316 338 244 338 226 372 Z" fill="url(#hair)"/>
+    <circle cx="240" cy="340" r="16" fill="url(#hair)"/>
+    <circle cx="280" cy="326" r="17" fill="url(#hair)"/>
+    <circle cx="320" cy="340" r="16" fill="url(#hair)"/>
+    <circle cx="224" cy="360" r="12" fill="url(#hair)"/>
+    <circle cx="336" cy="360" r="12" fill="url(#hair)"/>
+    <!-- rostro -->
+    <path d="M252 366 q7 -6 14 0" fill="none" stroke="#4a2c25" stroke-width="4" stroke-linecap="round"/>
+    <path d="M294 366 q7 -6 14 0" fill="none" stroke="#4a2c25" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="260" cy="380" rx="4.6" ry="5.4" fill="#2c1737"/>
+    <ellipse cx="300" cy="380" rx="4.6" ry="5.4" fill="#2c1737"/>
+    <circle cx="261" cy="378" r="1.5" fill="#ffffff"/>
+    <circle cx="301" cy="378" r="1.5" fill="#ffffff"/>
+    <path d="M279 384 q-4 9 2 12" fill="none" stroke="#d39c76" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M264 404 q16 15 32 0" fill="none" stroke="#b4634f" stroke-width="4.4" stroke-linecap="round"/>
+    <ellipse cx="245" cy="398" rx="10" ry="6" fill="#e89c96" opacity="0.55"/>
+    <ellipse cx="315" cy="398" rx="10" ry="6" fill="#e89c96" opacity="0.55"/>
+    <!-- collar -->
+    <path d="M262 430 q18 18 36 0 l-8 18 q-10 8 -20 0 Z" fill="#fffaf0"/>
+    <!-- aros -->
+    <circle cx="225" cy="398" r="7" fill="none" stroke="#f2cf7e" stroke-width="3"/>
+    <circle cx="335" cy="398" r="7" fill="none" stroke="#f2cf7e" stroke-width="3"/>
+  </g>
+
+  <!-- Hombre -->
+  <g>
+    <ellipse cx="850" cy="596" rx="108" ry="19" fill="#1f1026" opacity="0.45"/>
+    <!-- cuerpo -->
+    <path d="M774 460 Q850 420 926 460 L946 620 L754 620 Z" fill="url(#shirt)"/>
+    <path d="M806 450 q44 32 88 0 l-8 30 q-36 26 -72 0 Z" fill="#f7f1e6"/>
+    <!-- overol -->
+    <path d="M812 484 h76 v136 h-76 Z" fill="#3f5c7a"/>
+    <path d="M812 484 l-14 -32 16 -6 18 34 Z" fill="#3f5c7a"/>
+    <path d="M888 484 l14 -32 -16 -6 -18 34 Z" fill="#3f5c7a"/>
+    <rect x="828" y="514" width="44" height="34" rx="6" fill="#496a8b"/>
+    <rect x="836" y="522" width="28" height="5" rx="2.5" fill="#7fa1bf"/>
+    <rect x="836" y="532" width="18" height="5" rx="2.5" fill="#7fa1bf"/>
+    <circle cx="824" cy="494" r="5" fill="#f2cf7e"/>
+    <circle cx="876" cy="494" r="5" fill="#f2cf7e"/>
+    <!-- brazos -->
+    <path d="M792 478 C770 512 760 540 762 566" fill="none" stroke="#e8b98f" stroke-width="24" stroke-linecap="round"/>
+    <path d="M796 472 C774 502 766 520 766 532" fill="none" stroke="#6b90b4" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="762" cy="572" r="14" fill="#e8b98f"/>
+    <path d="M906 480 C932 500 940 526 932 548" fill="none" stroke="#e8b98f" stroke-width="24" stroke-linecap="round"/>
+    <path d="M902 474 C922 492 928 508 926 520" fill="none" stroke="#6b90b4" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="930" cy="554" r="14" fill="#e8b98f"/>
+    <!-- cabeza -->
+    <circle cx="850" cy="390" r="51" fill="#e8b98f"/>
+    <circle cx="798" cy="394" r="10" fill="#e8b98f"/>
+    <circle cx="902" cy="394" r="10" fill="#e8b98f"/>
+    <path d="M798 386 C794 330 906 330 902 386 C886 352 814 352 798 386 Z" fill="#2b2430"/>
+    <path d="M804 350 q46 -26 92 0 q-8 -30 -46 -30 q-38 0 -46 30 Z" fill="#2b2430"/>
+    <circle cx="812" cy="356" r="14" fill="#2b2430"/>
+    <circle cx="888" cy="356" r="14" fill="#2b2430"/>
+    <!-- gafas -->
+    <circle cx="830" cy="392" r="17" fill="none" stroke="#2b2430" stroke-width="4"/>
+    <circle cx="870" cy="392" r="17" fill="none" stroke="#2b2430" stroke-width="4"/>
+    <path d="M847 391 h6" stroke="#2b2430" stroke-width="4" stroke-linecap="round"/>
+    <path d="M813 390 h-12 M887 390 h12" stroke="#2b2430" stroke-width="3.4" stroke-linecap="round"/>
+    <circle cx="830" cy="392" r="4" fill="#2c1737"/>
+    <circle cx="870" cy="392" r="4" fill="#2c1737"/>
+    <circle cx="831" cy="390.5" r="1.3" fill="#ffffff"/>
+    <circle cx="871" cy="390.5" r="1.3" fill="#ffffff"/>
+    <path d="M824 372 q6 -4 12 0" fill="none" stroke="#2b2430" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M864 372 q6 -4 12 0" fill="none" stroke="#2b2430" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M846 396 q-3 8 2 10" fill="none" stroke="#c99870" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M836 414 q14 12 28 0" fill="none" stroke="#b4634f" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="816" cy="410" rx="8" ry="5" fill="#d9917a" opacity="0.45"/>
+    <ellipse cx="884" cy="410" rx="8" ry="5" fill="#d9917a" opacity="0.45"/>
+  </g>
+
+  <!-- Planta inferior izquierda -->
+  <g>
+    <ellipse cx="96" cy="600" rx="62" ry="12" fill="#1f1026" opacity="0.4"/>
+    <path d="M64 552 h64 l-9 48 h-46 Z" fill="#c96a55"/>
+    <path d="M96 552 C76 512 74 486 90 470 C104 492 106 526 100 552 Z" fill="#6f9c74"/>
+    <path d="M100 552 C118 510 140 500 154 512 C142 538 124 554 104 556 Z" fill="#84b08a"/>
+    <path d="M92 552 C72 534 54 532 42 542 C54 560 72 566 90 558 Z" fill="#5d8a63"/>
+    <path d="M104 552 C120 538 136 540 144 550 C134 562 118 564 106 558 Z" fill="#7fb8ae"/>
+  </g>
+
+  <!-- Brillo decorativo -->
+  <g fill="#f7f1e6" opacity="0.7">
+    <path d="M72 300 l4 12 l12 4 l-12 4 l-4 12 l-4 -12 l-12 -4 l12 -4 Z"/>
+    <path d="M1130 400 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 l9 -3 Z"/>
+    <path d="M376 86 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 l9 -3 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-label="Dos vecinos de AYNI">
+  <defs>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a2c25"/>
+      <stop offset="1" stop-color="#2f1a16"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b90b4"/>
+      <stop offset="1" stop-color="#53789c"/>
+    </linearGradient>
+    <clipPath id="woman-body-clip">
+      <path d="M206 444 Q280 402 354 444 L376 620 L184 620 Z"/>
+    </clipPath>
+    <clipPath id="man-body-clip">
+      <path d="M774 460 Q850 424 926 460 L946 620 L754 620 Z"/>
+    </clipPath>
+  </defs>
+<!-- Mujer -->
+  <g>
+    <ellipse cx="282" cy="592" rx="112" ry="20" fill="#1f1026" opacity="0.45"/>
+    <!-- cabello trasero -->
+    <circle cx="280" cy="376" r="74" fill="url(#hair)"/>
+    <circle cx="226" cy="418" r="42" fill="url(#hair)"/>
+    <circle cx="334" cy="418" r="42" fill="url(#hair)"/>
+    <!-- cuerpo con franjas -->
+    <path d="M206 444 Q280 402 354 444 L376 620 L184 620 Z" fill="#f7f1e6"/>
+    <g clip-path="url(#woman-body-clip)">
+      <rect x="180" y="432" width="200" height="30" fill="#e6bd63"/>
+      <rect x="180" y="462" width="200" height="30" fill="#d97a5e"/>
+      <rect x="180" y="492" width="200" height="30" fill="#b79cc9"/>
+      <rect x="180" y="522" width="200" height="30" fill="#7fb8ae"/>
+      <rect x="180" y="552" width="200" height="34" fill="#6f9c74"/>
+      <rect x="180" y="586" width="200" height="40" fill="#8a5f92"/>
+    </g>
+    <path d="M262 428 h36 v32 h-36 Z" fill="#e6b58e"/>
+    <path d="M268 438 q12 10 24 0" fill="none" stroke="#d39c76" stroke-width="3" stroke-linecap="round"/>
+    <!-- brazo izquierdo -->
+    <path d="M216 462 C196 500 190 532 192 566" fill="none" stroke="#f3c9a5" stroke-width="25" stroke-linecap="round"/>
+    <path d="M208 452 C190 486 186 504 188 522" fill="none" stroke="#e6bd63" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="192" cy="572" r="15" fill="#f3c9a5"/>
+    <!-- brazo derecho señalando -->
+    <path d="M342 456 C370 440 390 428 412 416" fill="none" stroke="#f3c9a5" stroke-width="24" stroke-linecap="round"/>
+    <path d="M346 452 C368 440 380 434 392 428" fill="none" stroke="#d97a5e" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="420" cy="412" r="15" fill="#f3c9a5"/>
+    <path d="M420 404 l18 -6" stroke="#f3c9a5" stroke-width="10" stroke-linecap="round"/>
+    <!-- cabeza -->
+    <circle cx="280" cy="376" r="54" fill="#f3c9a5"/>
+    <circle cx="226" cy="380" r="11" fill="#f3c9a5"/>
+    <circle cx="334" cy="380" r="11" fill="#f3c9a5"/>
+    <path d="M226 372 C224 308 336 308 334 372 C316 338 244 338 226 372 Z" fill="url(#hair)"/>
+    <circle cx="240" cy="340" r="16" fill="url(#hair)"/>
+    <circle cx="280" cy="326" r="17" fill="url(#hair)"/>
+    <circle cx="320" cy="340" r="16" fill="url(#hair)"/>
+    <circle cx="224" cy="360" r="12" fill="url(#hair)"/>
+    <circle cx="336" cy="360" r="12" fill="url(#hair)"/>
+    <!-- rostro -->
+    <path d="M252 366 q7 -6 14 0" fill="none" stroke="#4a2c25" stroke-width="4" stroke-linecap="round"/>
+    <path d="M294 366 q7 -6 14 0" fill="none" stroke="#4a2c25" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="260" cy="380" rx="4.6" ry="5.4" fill="#2c1737"/>
+    <ellipse cx="300" cy="380" rx="4.6" ry="5.4" fill="#2c1737"/>
+    <circle cx="261" cy="378" r="1.5" fill="#ffffff"/>
+    <circle cx="301" cy="378" r="1.5" fill="#ffffff"/>
+    <path d="M279 384 q-4 9 2 12" fill="none" stroke="#d39c76" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M264 404 q16 15 32 0" fill="none" stroke="#b4634f" stroke-width="4.4" stroke-linecap="round"/>
+    <ellipse cx="245" cy="398" rx="10" ry="6" fill="#e89c96" opacity="0.55"/>
+    <ellipse cx="315" cy="398" rx="10" ry="6" fill="#e89c96" opacity="0.55"/>
+    <!-- collar -->
+    <path d="M262 430 q18 18 36 0 l-8 18 q-10 8 -20 0 Z" fill="#fffaf0"/>
+    <!-- aros -->
+    <circle cx="225" cy="398" r="7" fill="none" stroke="#f2cf7e" stroke-width="3"/>
+    <circle cx="335" cy="398" r="7" fill="none" stroke="#f2cf7e" stroke-width="3"/>
+  </g>
+
+  <!-- Hombre -->
+  <g>
+    <ellipse cx="850" cy="596" rx="108" ry="19" fill="#1f1026" opacity="0.45"/>
+    <!-- cuerpo -->
+    <path d="M774 460 Q850 420 926 460 L946 620 L754 620 Z" fill="url(#shirt)"/>
+    <path d="M806 450 q44 32 88 0 l-8 30 q-36 26 -72 0 Z" fill="#f7f1e6"/>
+    <!-- overol -->
+    <path d="M812 484 h76 v136 h-76 Z" fill="#3f5c7a"/>
+    <path d="M812 484 l-14 -32 16 -6 18 34 Z" fill="#3f5c7a"/>
+    <path d="M888 484 l14 -32 -16 -6 -18 34 Z" fill="#3f5c7a"/>
+    <rect x="828" y="514" width="44" height="34" rx="6" fill="#496a8b"/>
+    <rect x="836" y="522" width="28" height="5" rx="2.5" fill="#7fa1bf"/>
+    <rect x="836" y="532" width="18" height="5" rx="2.5" fill="#7fa1bf"/>
+    <circle cx="824" cy="494" r="5" fill="#f2cf7e"/>
+    <circle cx="876" cy="494" r="5" fill="#f2cf7e"/>
+    <!-- brazos -->
+    <path d="M792 478 C770 512 760 540 762 566" fill="none" stroke="#e8b98f" stroke-width="24" stroke-linecap="round"/>
+    <path d="M796 472 C774 502 766 520 766 532" fill="none" stroke="#6b90b4" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="762" cy="572" r="14" fill="#e8b98f"/>
+    <path d="M906 480 C932 500 940 526 932 548" fill="none" stroke="#e8b98f" stroke-width="24" stroke-linecap="round"/>
+    <path d="M902 474 C922 492 928 508 926 520" fill="none" stroke="#6b90b4" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="930" cy="554" r="14" fill="#e8b98f"/>
+    <!-- cabeza -->
+    <circle cx="850" cy="390" r="51" fill="#e8b98f"/>
+    <circle cx="798" cy="394" r="10" fill="#e8b98f"/>
+    <circle cx="902" cy="394" r="10" fill="#e8b98f"/>
+    <path d="M798 386 C794 330 906 330 902 386 C886 352 814 352 798 386 Z" fill="#2b2430"/>
+    <path d="M804 350 q46 -26 92 0 q-8 -30 -46 -30 q-38 0 -46 30 Z" fill="#2b2430"/>
+    <circle cx="812" cy="356" r="14" fill="#2b2430"/>
+    <circle cx="888" cy="356" r="14" fill="#2b2430"/>
+    <!-- gafas -->
+    <circle cx="830" cy="392" r="17" fill="none" stroke="#2b2430" stroke-width="4"/>
+    <circle cx="870" cy="392" r="17" fill="none" stroke="#2b2430" stroke-width="4"/>
+    <path d="M847 391 h6" stroke="#2b2430" stroke-width="4" stroke-linecap="round"/>
+    <path d="M813 390 h-12 M887 390 h12" stroke="#2b2430" stroke-width="3.4" stroke-linecap="round"/>
+    <circle cx="830" cy="392" r="4" fill="#2c1737"/>
+    <circle cx="870" cy="392" r="4" fill="#2c1737"/>
+    <circle cx="831" cy="390.5" r="1.3" fill="#ffffff"/>
+    <circle cx="871" cy="390.5" r="1.3" fill="#ffffff"/>
+    <path d="M824 372 q6 -4 12 0" fill="none" stroke="#2b2430" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M864 372 q6 -4 12 0" fill="none" stroke="#2b2430" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M846 396 q-3 8 2 10" fill="none" stroke="#c99870" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M836 414 q14 12 28 0" fill="none" stroke="#b4634f" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="816" cy="410" rx="8" ry="5" fill="#d9917a" opacity="0.45"/>
+    <ellipse cx="884" cy="410" rx="8" ry="5" fill="#d9917a" opacity="0.45"/>
+  </g>
+</svg>
