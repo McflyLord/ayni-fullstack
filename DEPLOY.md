@@ -57,6 +57,17 @@ railway up ./backend  --path-as-root --service backend  --ci
 railway up ./frontend --path-as-root --service frontend --ci
 ```
 
+## Auto-despliegue desde GitHub (opcional)
+
+Los servicios se desplegaron con la CLI, por lo que un `git push` **no** redespliega automáticamente. Para activarlo:
+
+1. En Railway abre el proyecto `ayni-fullstack`.
+2. En cada servicio ve a **Settings → Source** y conecta el repositorio `McflyLord/ayni-fullstack`, rama `master`.
+3. Define el **Root Directory**:
+   - Servicio `backend` → `backend`
+   - Servicio `frontend` → `frontend`
+4. Railway detectará el `Dockerfile` de cada carpeta y desplegará en cada push a `master`.
+
 ## Notas importantes
 
 - `spring.jpa.hibernate.ddl-auto=update` crea la tabla `ayni_demo_state` automáticamente en el primer arranque.
