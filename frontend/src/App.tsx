@@ -1596,35 +1596,42 @@ function Landing() {
                 })}
               </ul>
             </div>
-            <button
+            <div
               className="group relative aspect-[16/11] overflow-hidden rounded-[30px] border border-white/60 text-left shadow-[var(--shadow)]"
-              onClick={() => {
-                if (videoRef.current) {
-                  if (videoRef.current.paused) {
-                    videoRef.current.play();
-                  } else {
-                    videoRef.current.pause();
-                  }
-                }
-                setVideo(!video);
-              }}
-              aria-label={video ? "Pausar presentación" : "Reproducir presentación"}
+              aria-label="Video explicativo de AYNI"
             >
               <video
                 ref={videoRef}
                 src={COAST}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover relative z-10"
+                controls
+                playsInline
+                preload="auto"
+                onPlay={() => setVideo(true)}
+                onPause={() => setVideo(false)}
+                onEnded={() => setVideo(false)}
               />
-              <span className="absolute inset-0 bg-gradient-to-t from-[color-mix(in_srgb,var(--ciruela)_88%,transparent)] via-transparent to-transparent" />
-              <span className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full bg-white/85 px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[.07em] text-[var(--ciruela)] backdrop-blur">
+              {/* Overlays decorativos sin bloquear interacción del video */}
+              <span
+                className="absolute inset-0 bg-gradient-to-t from-[color-mix(in_srgb,var(--ciruela)_60%,transparent)] via-transparent to-transparent pointer-events-none z-20"
+              />
+              <span
+                className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full bg-white/85 px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[.07em] text-[var(--ciruela)] backdrop-blur pointer-events-none z-30"
+              >
                 {video ? <Pause size={11} /> : <Play size={11} />} Presentación · 01:24
               </span>
-              <span className="absolute inset-0 grid place-items-center">
-                <span className="grid size-[74px] place-items-center rounded-full bg-[var(--oro)] text-[var(--ciruela)] shadow-[var(--shadow-gold)] transition-transform duration-300 group-hover:scale-105">
+              <span
+                className="absolute inset-0 grid place-items-center pointer-events-none z-20"
+              >
+                <span
+                  className="grid size-[74px] place-items-center rounded-full bg-[var(--oro)] text-[var(--ciruela)] shadow-[var(--shadow-gold)] transition-transform duration-300 group-hover:scale-105"
+                >
                   {video ? <Pause size={26} /> : <Play size={26} className="translate-x-0.5" />}
                 </span>
               </span>
-              <span className="absolute inset-x-5 bottom-5 flex items-end justify-between gap-4 text-white">
+              <span
+                className="absolute inset-x-5 bottom-5 flex items-end justify-between gap-4 text-white pointer-events-none z-30"
+              >
                 <span>
                   <strong className="font-editorial block text-xl leading-tight md:text-2xl">
                     {video ? "Presentación en reproducción" : "Ver cómo funciona"}
@@ -1637,7 +1644,7 @@ function Landing() {
                   Demo
                 </span>
               </span>
-            </button>
+            </div>
           </div>
         </section>
 

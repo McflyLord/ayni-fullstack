@@ -1,5 +1,5 @@
-const CACHE_NAME = "ayni-shell-v3";
-const APP_SHELL = ["/", "/index.html", "/manifest.webmanifest", "/favicon-v2.png", "/ayni-logo-v2.png"];
+const CACHE_NAME = "ayni-shell-v4";
+const APP_SHELL = ["/", "/index.html", "/manifest.webmanifest", "/favicon-v2.png", "/ayni-logo-v2.png", "/video-explicativo.mp4"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
